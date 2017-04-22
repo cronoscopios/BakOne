@@ -1,0 +1,215 @@
+
+/* *****************************************************
+ * ***************** CSS General Styles ****************
+ * ***************************************************** */
+
+body {
+	margin-top: 0;
+	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	
+}
+
+p {
+	color: #000;
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight: 300;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+ul li {
+	margin-bottom: 5px;
+}
+
+/* *****************************************************
+ * ******************** Header *************************
+ * ***************************************************** */
+
+#main-header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #fff;
+	z-index: 99;
+	background-color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0.95);
+	box-shadow:0 1px 5px #999; 
+	-moz-box-shadow:0 1px 5px #999;
+	-webkit-box-shadow:0 1px 5px #999;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(starColorstr=#11000000, endColorstr=#11000000)";
+}
+
+#main-logo {
+	width: 20%;
+	height: 50px;
+	padding: 2px 0 0 2px;
+	margin: 10px;
+	background-color: #37bb97;
+	float: left;	
+}
+
+#main-logo > a {
+	font-size: 40px;
+	font-size: 4rem;
+	font-weight: 600;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 4px 5px 1px #000;
+	margin-left: 10px;
+	-webkit-transition: all 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: all 0.5s;
+}
+
+#main-logo > a:hover {
+	font-size: 45px;
+	font-size: 4.5rem;
+
+}
+
+#slogan {
+	text-transform: uppercase;
+	color: #000;
+	font-size: 18px;
+	font-size: 1.8rem;
+	margin-top: 10px;
+
+}
+
+#slogan > span {
+	color: #000;
+	font-size: 15px;
+	font-size: 1.5rem;
+	text-transform: lowercase;
+}
+
+/* *****************************************************
+ * ******************** Main Navigation ****************
+ * ***************************************************** */
+
+#main-menu {
+	float: right;
+	margin-top: 10px;
+	font-size: 20px;
+	font-size: 2rem;
+	font-weight: 200;
+
+}
+
+#main-menu a {
+	color: #000;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-webkit-transition: all 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: all 0.5s;
+}
+
+#main-menu a:hover {
+	color: #fff;
+}
+
+#main-menu.nav-pills>li.active>a,
+#main-menu.nav-pills>li.active>a:hover,
+#main-menu.nav-pills>li.active>a:focus,
+#main-menu.nav-pills>li>a:hover {
+	background-color: #37bb97;
+}
+
+#main-menu.nav-pills>li.active>a,
+#main-menu.nav-pills>li.active>a:hover,
+#main-menu.nav-pills>li.active>a:focus {
+	color: #fff;
+}
+
+/* *****************************************************
+ * ******************** Footer *************************
+ * ***************************************************** */
+
+footer {
+	padding: 30px 0;
+	background-color: #2e3d53;
+}
+
+#copy-info {
+	color: #fff;
+	margin-bottom: 10px;
+
+}
+
+#copy-info h3 {
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight: 200;
+	text-transform: uppercase;
+}
+
+#top-right {
+	text-align: center;
+	background-color: #37bb97;
+	margin-top: 15px;
+	
+}
+
+#top-right a {
+	color: #000;
+	text-decoration: none;
+	font-size: 20px;
+	font-size: 2rem;
+	font-weight: 200;
+	text-transform: uppercase;
+}
+
+#top-right a:hover {
+	color: #fff;
+}
+
+/* *****************************************************
+ * ******************** Mobile *************************
+ * ***************************************************** */
+
+/*#mobile-menu-button {
+	float: right;
+	width: 44px;
+	margin: 20px 0;
+}
+
+#mobile-main-menu {
+	display: none;
+}
+
+#mobile-main-menu a {
+	display: block;
+	width: 100%;
+	padding: 10px 0;
+	border-top: 1px solid #eee;
+	color: #aaa;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#mobile-main-menu li {
+	margin: 0;
+}
+
+#mobile-main-menu a:hover {
+	color: #fff;
+	text-decoration: none;
+	background-color: #A3D900;
+}
+
+/* *****************************************************
+ * ******************** Generales **********************
+ * ***************************************************** */
+
+.btn-custom {
+	border: 0;
+	border-radius: 2px;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: 600;
+}
